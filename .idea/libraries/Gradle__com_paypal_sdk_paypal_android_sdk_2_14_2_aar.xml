@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.paypal.sdk:paypal-android-sdk:2.14.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9afd3c19c38f6dfb3e3974ae16a819f/jetified-paypal-android-sdk-2.14.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c675b437ed1d0ec88f093de8dd613c2/jetified-paypal-android-sdk-2.14.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Android/jdk/caches/transforms-2/files-2.1/0c675b437ed1d0ec88f093de8dd613c2/jetified-paypal-android-sdk-2.14.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c675b437ed1d0ec88f093de8dd613c2/jetified-paypal-android-sdk-2.14.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c675b437ed1d0ec88f093de8dd613c2/jetified-paypal-android-sdk-2.14.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

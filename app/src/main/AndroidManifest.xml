@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mongodb.app">
+    <!-- Added below for paypal to work -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App">
+        <activity
+            android:name=".FollowerActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--              The API key for Google Maps-based APIs. -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="MAPS_API_KEY" />
+
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TournamentsInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyRatingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GroupListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatRoom"
+            android:exported="false" />
+        <activity
+            android:name=".RulesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapsMarkerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RateOrganizerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TournamentPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TournamentsOwnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActiveUpcomingTournament"
+            android:exported="false" />
+        <activity
+            android:name=".BracketActivity"
+            android:exported="false"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".PlayerActivity"
+            android:parentActivityName=".ProfileActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".afterNotification"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".MyGroupsActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".ReportActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".SearchTournamentActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".CreateTournamentActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".games.GamesListActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".games.GameDetailActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".TournamentActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".TournamentDetailActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".ChangePassActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".QRCodeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".SuggestionPageActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".RankingActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".PaypalActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".activty.CheckoutActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".NewProfile"
+            android:screenOrientation="nosensor" /> <!-- <activity -->
+        <!-- android:name=".LoginActivity" -->
+        <!-- android:screenOrientation="nosensor" /> -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" /> <!-- // google API implementation -->
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+    </application>
+
+</manifest>

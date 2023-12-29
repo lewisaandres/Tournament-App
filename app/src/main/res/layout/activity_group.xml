@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateGroupActivity"
+    android:background="#202020">
+
+    <EditText
+        android:id="@+id/groupName"
+        android:layout_width="344dp"
+        android:layout_height="56dp"
+
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Group Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+
+        android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar_createTournamentActivity"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/mem2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+
+        android:hint="Member 2"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/mem1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mem1"
+        app:layout_constraintTop_toBottomOf="@+id/mem1" />
+
+    <EditText
+        android:id="@+id/mem3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+
+        android:ems="10"
+        android:hint="Member 3"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/mem2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mem2"
+        app:layout_constraintTop_toBottomOf="@+id/mem2" />
+
+    <EditText
+        android:id="@+id/mem4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+
+        android:ems="10"
+        android:hint="Member 4"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/mem3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mem3"
+        app:layout_constraintTop_toBottomOf="@+id/mem3" />
+
+    <EditText
+        android:id="@+id/mem1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+
+        android:hint="Member 1"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/groupName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/groupName"
+        app:layout_constraintTop_toBottomOf="@+id/groupName" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/createTournamentButton_Button"
+        android:layout_width="340dp"
+        android:layout_height="37dp"
+        android:background="@drawable/button"
+        android:text="Create Group"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mem4" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar_createTournamentActivity"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Create Group" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

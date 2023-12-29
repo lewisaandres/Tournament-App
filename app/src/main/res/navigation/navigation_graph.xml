@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.mongodb.app.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/createTourneyFragment"
+        android:name="com.mongodb.app.CreateTourneyFragment"
+        android:label="fragment_create_tourney"
+        tools:layout="@layout/fragment_create_tourney" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.mongodb.app.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.mongodb.app.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/bracketFragment2"
+        android:name="com.mongodb.app.BracketFragment"
+        android:label="fragment_bracket"
+        tools:layout="@layout/fragment_bracket" />
+</navigation>

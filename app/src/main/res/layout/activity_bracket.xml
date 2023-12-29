@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BracketActivity">
+
+
+    <com.ventura.bracketslib.BracketsView
+        android:id="@+id/bracket_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:bracketBackgroundColor="#1c222e"
+        app:bracketColor="#262e40"
+        app:bracketTextColor="#fff" >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_CurrentTournament"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="Current Tournament" />
+    </com.ventura.bracketslib.BracketsView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

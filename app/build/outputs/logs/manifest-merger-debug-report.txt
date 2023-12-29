@@ -1,0 +1,825 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:2:1-169:12
+MERGED from [io.realm:realm-android-library-object-server:10.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\828d6d50090e0af06532f186faa0f17b\jetified-realm-android-library-object-server-10.3.1\AndroidManifest.xml:2:1-13:12
+MERGED from [io.realm:realm-android-kotlin-extensions-object-server:10.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\a6ffdd405c334388d26a8925ce1d7905\jetified-realm-android-kotlin-extensions-object-server-10.3.1\AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9a2080148e2cdb702072d03717579bf1\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7cf3e7ce3be8ba0b10379626a05e0492\navigation-fragment-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0b37b581e37715dc328c469e88ab0726\navigation-fragment-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\a290ffa83ad41dbda4d331ccabe85b3a\jetified-fragment-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c93ffe466fae2d5b67cec004eecc802\navigation-ui-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\462f18d7c6029a5357f31ba73d3eb24c\navigation-runtime-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d857954d63a96a0aa797a6feb193e527\navigation-ui-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9b18708e87bd8ebf717e17fbd841959d\navigation-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9c91b2cdf9c0cd6516932df02eca54fa\jetified-activity-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6aa585f2d24ed1fe6042234fd87c4785\navigation-common-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\91426e714b472f96c173f3ec26472f37\navigation-common-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fea8eb87435b15d1e4131e9061ca2007\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c092e9737c9eafa6193699ac5d00da4d\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e7bb75cc5c5f2693d927bc95d114c41b\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\28aada1cb4845f029a98037034920e54\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ce916957ad6cce9f9f112e91136e8008\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dc13bc28c725dfa246329649a8599bb4\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8fcbc9c8d1f4acd7c8ee7a6315ef3752\jetified-lifecycle-livedata-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.emil-ep:TournamentBracketLib:1.0.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f49eea04d1eccbad1fb5ed0d1bdc108e\jetified-TournamentBracketLib-1.0.4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.stfalcon-studio:Chatkit:0.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e99234f31165f30b9677516e6687f688\jetified-Chatkit-0.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\91efaa73424a056f0e4527826f6d8524\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e9eeb17ce264fa21ca065646c6869fa9\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\cee29536c48f777af6adcd0fbcf285d9\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-wallet:19.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\57e2d0ab11cf573264c6cc61984166c3\jetified-play-services-wallet-19.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0eafb0c5f5bc103a5fa2616cf76fd276\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d34d397ebba2bd4a00340b904fb26822\jetified-play-services-vision-20.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e8f4905f5c9ac2782d993ce8040b03d6\jetified-play-services-vision-common-19.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8de25f8f077818cab9827f1ea330124f\jetified-play-services-identity-18.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d920206152ca8fc9e0c2fa552d847cfb\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d7bde5e434ee264927605d744d60fdcd\jetified-play-services-flags-17.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\151e624106315d0f9a3fe285fbd4c5ad\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ebb3474a0498cc8f83712d23eb46b103\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\de8620c3b6ad5cfc06d4896921f7bbeb\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0a503b14a21ca97db4c1438865089ad7\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [com.cometchat:pro-android-chat-sdk:3.0.5] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f82246be960d7aefd17ffe647576c239\jetified-pro-android-chat-sdk-3.0.5\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\006480c926c9c5e4538c80aa5d1a1a65\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.fragment:fragment:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4b114c698d2021886124bec94b83b300\fragment-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d7f66f6b9b465009c82df3c88449def1\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [io.realm:android-adapters:4.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\3792d1355ff5ac47ceb5795145f96786\jetified-android-adapters-4.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8c92d766ddfb4f4bed8b4c0d9963ee42\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ea8ec5f6023ec7fbbe239ee63500e5ac\jetified-activity-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fa6e004f2d36d5de0d603b590f82422f\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\82819158ffabf7d579bc0e515a3e6bdb\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fb949555869b477b9b8b275b9da10331\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7ce8a5f7ce561fca9a9597adf6415c27\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\2bb18d74d78d89b66965d333d1030166\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\b87bc0b050c0a347ace855676a1c028d\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d968390178337e2a385deb8c2223f9fe\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c0b66040b46f62d1a1ee0e990d5dac40\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d6fa4144fefd94c79b4d6af67a89711c\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8309b76a5e928e0e853fef47c420464e\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\634be0d4ea08017a632910457643be12\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6b6bb97efc616229d540f0e0e6cfcad4\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e79ca6fe355f604bb86c3bd3be91af9c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\3eae80b100187d6d6a39c69ac71ed915\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\57f11e60f553c4c35ebfd7fb15949690\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\2bdde0baeeb8d702e3a8d5e421652e89\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6fe9dc3d2e5c3cfae6768aa31bbfbe5b\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\268cec9a9fe9aedc8add2e2b4156b65a\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\5674bbc27c46072f32138a4529e3d67b\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7124172b80ecbd72c4e8a671251fbbeb\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6c8b23bf8877cc31d56f8cf08dcfb2b4\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ad2f40eec074059d712450fb7c70c392\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e8d3e108c0fcfb2f6aa548c5f1e07fd8\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f6b0827f87a7d83e77beaeb3685dd8fc\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6f462d406c8565bc559bea22ec1d72c0\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\01ef5c4508777ee25ba437b394afdcde\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8342245b947ce453411d3d3b6a8bfb60\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c6b9dc8253ef95338db82c580dcbde42\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\064a01f6be285c24e72d80ba6dbfc98a\lifecycle-livedata-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\a907d167c95fa363aac3e5f84d574087\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\83e496c69d857cfe11d2ee8d190a71ae\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\55961f8d7c68f6477bc8c97d0b08e101\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257b42c2c7c6cd0139ca92f44105a1fc\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4ddac0afd529577f6c9ba735ace6fbcd\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8ad9ef56a1488a9ef6ccfc673d81be8d\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\01f0d3f8ef6fc651e78b06c1cc420066\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\70234a11d02ba78ecbb6f5044d2e3371\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\065b471a6b52e3b1167ce679d1c5bca7\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8e9c29eb41f192bb72e1f9e04043c26d\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:2:1-28:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7d337a82ff37871f2ba9ef2173272a82\jetified-relinker-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dd5738402c4b9b14c15e2e16050f38a3\jetified-rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d1fba26d1c40674a02d38a12e6d9b28e\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:2:1-28:12
+MERGED from [com.google.android:flexbox:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\72ab26fef4818e4c5c21098590c82729\jetified-flexbox-1.0.0\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:2:1-169:12
+	package
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:2:1-169:12
+		INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:2:1-169:12
+		INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [io.realm:realm-android-library-object-server:10.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\828d6d50090e0af06532f186faa0f17b\jetified-realm-android-library-object-server-10.3.1\AndroidManifest.xml:11:5-67
+MERGED from [io.realm:realm-android-library-object-server:10.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\828d6d50090e0af06532f186faa0f17b\jetified-realm-android-library-object-server-10.3.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+MERGED from [com.cometchat:pro-android-chat-sdk:3.0.5] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f82246be960d7aefd17ffe647576c239\jetified-pro-android-chat-sdk-3.0.5\AndroidManifest.xml:11:5-67
+MERGED from [com.cometchat:pro-android-chat-sdk:3.0.5] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f82246be960d7aefd17ffe647576c239\jetified-pro-android-chat-sdk-3.0.5\AndroidManifest.xml:11:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:10:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:7:5-167:19
+MERGED from [androidx.window:window:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dc13bc28c725dfa246329649a8599bb4\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dc13bc28c725dfa246329649a8599bb4\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\91efaa73424a056f0e4527826f6d8524\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\91efaa73424a056f0e4527826f6d8524\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e9eeb17ce264fa21ca065646c6869fa9\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e9eeb17ce264fa21ca065646c6869fa9\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d34d397ebba2bd4a00340b904fb26822\jetified-play-services-vision-20.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d34d397ebba2bd4a00340b904fb26822\jetified-play-services-vision-20.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e8f4905f5c9ac2782d993ce8040b03d6\jetified-play-services-vision-common-19.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e8f4905f5c9ac2782d993ce8040b03d6\jetified-play-services-vision-common-19.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8de25f8f077818cab9827f1ea330124f\jetified-play-services-identity-18.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8de25f8f077818cab9827f1ea330124f\jetified-play-services-identity-18.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d920206152ca8fc9e0c2fa552d847cfb\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d920206152ca8fc9e0c2fa552d847cfb\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\151e624106315d0f9a3fe285fbd4c5ad\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\151e624106315d0f9a3fe285fbd4c5ad\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ebb3474a0498cc8f83712d23eb46b103\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ebb3474a0498cc8f83712d23eb46b103\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\de8620c3b6ad5cfc06d4896921f7bbeb\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\de8620c3b6ad5cfc06d4896921f7bbeb\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0a503b14a21ca97db4c1438865089ad7\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0a503b14a21ca97db4c1438865089ad7\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\006480c926c9c5e4538c80aa5d1a1a65\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\006480c926c9c5e4538c80aa5d1a1a65\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fb949555869b477b9b8b275b9da10331\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fb949555869b477b9b8b275b9da10331\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\5674bbc27c46072f32138a4529e3d67b\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\5674bbc27c46072f32138a4529e3d67b\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\01ef5c4508777ee25ba437b394afdcde\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\01ef5c4508777ee25ba437b394afdcde\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8342245b947ce453411d3d3b6a8bfb60\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8342245b947ce453411d3d3b6a8bfb60\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c6b9dc8253ef95338db82c580dcbde42\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c6b9dc8253ef95338db82c580dcbde42\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:12:5-26:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:12:5-26:19
+MERGED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:21:5-26:19
+MERGED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:21:5-26:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\5674bbc27c46072f32138a4529e3d67b\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:14:9-41
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:8:9-28
+activity#com.mongodb.app.FollowerActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:16:13-45
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:19:9-21:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0a503b14a21ca97db4c1438865089ad7\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0a503b14a21ca97db4c1438865089ad7\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:21:13-66
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:20:13-58
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:23:9-25:44
+	android:value
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:25:13-41
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:24:13-58
+activity#com.mongodb.app.ChatActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:28:13-41
+activity#com.mongodb.app.TournamentsInActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:31:13-50
+activity#com.mongodb.app.MyRatingsActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:34:13-46
+activity#com.mongodb.app.GroupListActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:37:13-46
+activity#com.mongodb.app.ChatRoom
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:40:13-37
+activity#com.mongodb.app.RulesActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:43:13-42
+activity#com.mongodb.app.MapsMarkerActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:45:9-47:39
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:46:13-47
+activity#com.mongodb.app.RateOrganizerActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:49:13-50
+activity#com.mongodb.app.CreateGroupActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:52:13-48
+activity#com.mongodb.app.TimerActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:55:13-42
+activity#com.mongodb.app.TournamentPageActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:57:9-59:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:58:13-51
+activity#com.mongodb.app.TournamentsOwnActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:60:9-62:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:61:13-51
+activity#com.mongodb.app.ParticipantActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:63:9-65:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:64:13-48
+activity#com.mongodb.app.ActiveUpcomingTournament
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:66:9-68:40
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:67:13-53
+activity#com.mongodb.app.BracketActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:69:9-72:58
+	android:parentActivityName
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:72:13-55
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:71:13-37
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:70:13-44
+activity#com.mongodb.app.PlayerActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:73:9-76:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:76:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:75:13-58
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:74:13-43
+activity#com.mongodb.app.afterNotification
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:77:9-79:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:78:13-46
+activity#com.mongodb.app.MyGroupsActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:80:9-82:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:82:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:81:13-45
+activity#com.mongodb.app.ReportActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:83:9-85:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:84:13-43
+activity#com.mongodb.app.SearchTournamentActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:86:9-89:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:89:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:88:13-55
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:87:13-53
+activity#com.mongodb.app.RegisterActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:90:9-93:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:93:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:92:13-56
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:91:13-45
+activity#com.mongodb.app.CreateTournamentActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:94:9-97:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:97:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:96:13-55
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:95:13-53
+activity#com.mongodb.app.HomeActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:98:9-100:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:100:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:99:13-41
+activity#com.mongodb.app.games.GamesListActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:101:9-103:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:103:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:102:13-52
+activity#com.mongodb.app.games.GameDetailActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:104:9-106:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:105:13-53
+activity#com.mongodb.app.TournamentActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:107:9-109:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:109:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:108:13-47
+activity#com.mongodb.app.TournamentDetailActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:110:9-112:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:111:13-53
+activity#com.mongodb.app.ProfileActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:113:9-116:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:116:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:115:13-55
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:114:13-44
+activity#com.mongodb.app.EditProfileActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:117:9-119:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:119:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:118:13-48
+activity#com.mongodb.app.ChangePassActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:120:9-122:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:122:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:121:13-47
+activity#com.mongodb.app.SettingsActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:123:9-126:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:126:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:125:13-55
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:124:13-45
+activity#com.mongodb.app.QRCodeActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:127:9-129:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:129:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:128:13-43
+activity#com.mongodb.app.SuggestionPageActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:130:9-132:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:132:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:131:13-51
+activity#com.mongodb.app.RankingActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:133:9-135:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:135:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:134:13-44
+activity#com.mongodb.app.PaypalActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:136:9-139:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:139:13-49
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:138:13-36
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:137:13-43
+activity#com.mongodb.app.activty.CheckoutActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:140:9-143:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:143:13-49
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:142:13-36
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:141:13-53
+activity#com.mongodb.app.NewProfile
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:144:9-146:52
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:146:13-49
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:145:13-39
+activity#com.mongodb.app.LoginActivity
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:149:9-159:20
+	android:screenOrientation
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:153:13-49
+	android:label
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:152:13-45
+	android:exported
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:151:13-36
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:150:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:154:13-158:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:155:17-69
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:155:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:157:17-77
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:157:27-74
+meta-data#preloaded_fonts
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:161:9-163:57
+	android:resource
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:163:13-54
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:162:13-43
+meta-data#com.google.android.gms.wallet.api.enabled
+ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:164:9-166:36
+	android:value
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:166:13-33
+	android:name
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml:165:13-69
+uses-sdk
+INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+MERGED from [io.realm:realm-android-library-object-server:10.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\828d6d50090e0af06532f186faa0f17b\jetified-realm-android-library-object-server-10.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-library-object-server:10.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\828d6d50090e0af06532f186faa0f17b\jetified-realm-android-library-object-server-10.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-kotlin-extensions-object-server:10.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\a6ffdd405c334388d26a8925ce1d7905\jetified-realm-android-kotlin-extensions-object-server-10.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-kotlin-extensions-object-server:10.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\a6ffdd405c334388d26a8925ce1d7905\jetified-realm-android-kotlin-extensions-object-server-10.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9a2080148e2cdb702072d03717579bf1\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9a2080148e2cdb702072d03717579bf1\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7cf3e7ce3be8ba0b10379626a05e0492\navigation-fragment-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7cf3e7ce3be8ba0b10379626a05e0492\navigation-fragment-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0b37b581e37715dc328c469e88ab0726\navigation-fragment-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0b37b581e37715dc328c469e88ab0726\navigation-fragment-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\a290ffa83ad41dbda4d331ccabe85b3a\jetified-fragment-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\a290ffa83ad41dbda4d331ccabe85b3a\jetified-fragment-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c93ffe466fae2d5b67cec004eecc802\navigation-ui-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c93ffe466fae2d5b67cec004eecc802\navigation-ui-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\462f18d7c6029a5357f31ba73d3eb24c\navigation-runtime-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\462f18d7c6029a5357f31ba73d3eb24c\navigation-runtime-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d857954d63a96a0aa797a6feb193e527\navigation-ui-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d857954d63a96a0aa797a6feb193e527\navigation-ui-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9b18708e87bd8ebf717e17fbd841959d\navigation-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9b18708e87bd8ebf717e17fbd841959d\navigation-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9c91b2cdf9c0cd6516932df02eca54fa\jetified-activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9c91b2cdf9c0cd6516932df02eca54fa\jetified-activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6aa585f2d24ed1fe6042234fd87c4785\navigation-common-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6aa585f2d24ed1fe6042234fd87c4785\navigation-common-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\91426e714b472f96c173f3ec26472f37\navigation-common-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\91426e714b472f96c173f3ec26472f37\navigation-common-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fea8eb87435b15d1e4131e9061ca2007\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fea8eb87435b15d1e4131e9061ca2007\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c092e9737c9eafa6193699ac5d00da4d\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c092e9737c9eafa6193699ac5d00da4d\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e7bb75cc5c5f2693d927bc95d114c41b\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e7bb75cc5c5f2693d927bc95d114c41b\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\28aada1cb4845f029a98037034920e54\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\28aada1cb4845f029a98037034920e54\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ce916957ad6cce9f9f112e91136e8008\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ce916957ad6cce9f9f112e91136e8008\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dc13bc28c725dfa246329649a8599bb4\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dc13bc28c725dfa246329649a8599bb4\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8fcbc9c8d1f4acd7c8ee7a6315ef3752\jetified-lifecycle-livedata-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8fcbc9c8d1f4acd7c8ee7a6315ef3752\jetified-lifecycle-livedata-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.emil-ep:TournamentBracketLib:1.0.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f49eea04d1eccbad1fb5ed0d1bdc108e\jetified-TournamentBracketLib-1.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.emil-ep:TournamentBracketLib:1.0.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f49eea04d1eccbad1fb5ed0d1bdc108e\jetified-TournamentBracketLib-1.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.stfalcon-studio:Chatkit:0.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e99234f31165f30b9677516e6687f688\jetified-Chatkit-0.4.1\AndroidManifest.xml:7:5-44
+MERGED from [com.github.stfalcon-studio:Chatkit:0.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e99234f31165f30b9677516e6687f688\jetified-Chatkit-0.4.1\AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\91efaa73424a056f0e4527826f6d8524\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\91efaa73424a056f0e4527826f6d8524\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e9eeb17ce264fa21ca065646c6869fa9\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e9eeb17ce264fa21ca065646c6869fa9\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\cee29536c48f777af6adcd0fbcf285d9\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\cee29536c48f777af6adcd0fbcf285d9\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-wallet:19.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\57e2d0ab11cf573264c6cc61984166c3\jetified-play-services-wallet-19.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:19.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\57e2d0ab11cf573264c6cc61984166c3\jetified-play-services-wallet-19.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0eafb0c5f5bc103a5fa2616cf76fd276\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0eafb0c5f5bc103a5fa2616cf76fd276\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d34d397ebba2bd4a00340b904fb26822\jetified-play-services-vision-20.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d34d397ebba2bd4a00340b904fb26822\jetified-play-services-vision-20.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e8f4905f5c9ac2782d993ce8040b03d6\jetified-play-services-vision-common-19.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e8f4905f5c9ac2782d993ce8040b03d6\jetified-play-services-vision-common-19.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8de25f8f077818cab9827f1ea330124f\jetified-play-services-identity-18.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8de25f8f077818cab9827f1ea330124f\jetified-play-services-identity-18.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d920206152ca8fc9e0c2fa552d847cfb\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d920206152ca8fc9e0c2fa552d847cfb\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d7bde5e434ee264927605d744d60fdcd\jetified-play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d7bde5e434ee264927605d744d60fdcd\jetified-play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\151e624106315d0f9a3fe285fbd4c5ad\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\151e624106315d0f9a3fe285fbd4c5ad\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ebb3474a0498cc8f83712d23eb46b103\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ebb3474a0498cc8f83712d23eb46b103\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\de8620c3b6ad5cfc06d4896921f7bbeb\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\de8620c3b6ad5cfc06d4896921f7bbeb\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0a503b14a21ca97db4c1438865089ad7\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0a503b14a21ca97db4c1438865089ad7\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.cometchat:pro-android-chat-sdk:3.0.5] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f82246be960d7aefd17ffe647576c239\jetified-pro-android-chat-sdk-3.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cometchat:pro-android-chat-sdk:3.0.5] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f82246be960d7aefd17ffe647576c239\jetified-pro-android-chat-sdk-3.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\006480c926c9c5e4538c80aa5d1a1a65\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\006480c926c9c5e4538c80aa5d1a1a65\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4b114c698d2021886124bec94b83b300\fragment-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4b114c698d2021886124bec94b83b300\fragment-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d7f66f6b9b465009c82df3c88449def1\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d7f66f6b9b465009c82df3c88449def1\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.realm:android-adapters:4.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\3792d1355ff5ac47ceb5795145f96786\jetified-android-adapters-4.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.realm:android-adapters:4.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\3792d1355ff5ac47ceb5795145f96786\jetified-android-adapters-4.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8c92d766ddfb4f4bed8b4c0d9963ee42\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8c92d766ddfb4f4bed8b4c0d9963ee42\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ea8ec5f6023ec7fbbe239ee63500e5ac\jetified-activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ea8ec5f6023ec7fbbe239ee63500e5ac\jetified-activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fa6e004f2d36d5de0d603b590f82422f\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fa6e004f2d36d5de0d603b590f82422f\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\82819158ffabf7d579bc0e515a3e6bdb\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\82819158ffabf7d579bc0e515a3e6bdb\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fb949555869b477b9b8b275b9da10331\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fb949555869b477b9b8b275b9da10331\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7ce8a5f7ce561fca9a9597adf6415c27\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7ce8a5f7ce561fca9a9597adf6415c27\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\2bb18d74d78d89b66965d333d1030166\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\2bb18d74d78d89b66965d333d1030166\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\b87bc0b050c0a347ace855676a1c028d\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\b87bc0b050c0a347ace855676a1c028d\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d968390178337e2a385deb8c2223f9fe\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d968390178337e2a385deb8c2223f9fe\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c0b66040b46f62d1a1ee0e990d5dac40\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c0b66040b46f62d1a1ee0e990d5dac40\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d6fa4144fefd94c79b4d6af67a89711c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d6fa4144fefd94c79b4d6af67a89711c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8309b76a5e928e0e853fef47c420464e\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8309b76a5e928e0e853fef47c420464e\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\634be0d4ea08017a632910457643be12\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\634be0d4ea08017a632910457643be12\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6b6bb97efc616229d540f0e0e6cfcad4\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6b6bb97efc616229d540f0e0e6cfcad4\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e79ca6fe355f604bb86c3bd3be91af9c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e79ca6fe355f604bb86c3bd3be91af9c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\3eae80b100187d6d6a39c69ac71ed915\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\3eae80b100187d6d6a39c69ac71ed915\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\57f11e60f553c4c35ebfd7fb15949690\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\57f11e60f553c4c35ebfd7fb15949690\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\2bdde0baeeb8d702e3a8d5e421652e89\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\2bdde0baeeb8d702e3a8d5e421652e89\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6fe9dc3d2e5c3cfae6768aa31bbfbe5b\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6fe9dc3d2e5c3cfae6768aa31bbfbe5b\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\268cec9a9fe9aedc8add2e2b4156b65a\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\268cec9a9fe9aedc8add2e2b4156b65a\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\5674bbc27c46072f32138a4529e3d67b\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\5674bbc27c46072f32138a4529e3d67b\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7124172b80ecbd72c4e8a671251fbbeb\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7124172b80ecbd72c4e8a671251fbbeb\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6c8b23bf8877cc31d56f8cf08dcfb2b4\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6c8b23bf8877cc31d56f8cf08dcfb2b4\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ad2f40eec074059d712450fb7c70c392\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ad2f40eec074059d712450fb7c70c392\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e8d3e108c0fcfb2f6aa548c5f1e07fd8\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\e8d3e108c0fcfb2f6aa548c5f1e07fd8\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f6b0827f87a7d83e77beaeb3685dd8fc\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f6b0827f87a7d83e77beaeb3685dd8fc\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6f462d406c8565bc559bea22ec1d72c0\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\6f462d406c8565bc559bea22ec1d72c0\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\01ef5c4508777ee25ba437b394afdcde\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\01ef5c4508777ee25ba437b394afdcde\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8342245b947ce453411d3d3b6a8bfb60\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8342245b947ce453411d3d3b6a8bfb60\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c6b9dc8253ef95338db82c580dcbde42\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c6b9dc8253ef95338db82c580dcbde42\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\064a01f6be285c24e72d80ba6dbfc98a\lifecycle-livedata-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\064a01f6be285c24e72d80ba6dbfc98a\lifecycle-livedata-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\a907d167c95fa363aac3e5f84d574087\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\a907d167c95fa363aac3e5f84d574087\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\83e496c69d857cfe11d2ee8d190a71ae\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\83e496c69d857cfe11d2ee8d190a71ae\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\55961f8d7c68f6477bc8c97d0b08e101\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\55961f8d7c68f6477bc8c97d0b08e101\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257b42c2c7c6cd0139ca92f44105a1fc\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257b42c2c7c6cd0139ca92f44105a1fc\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4ddac0afd529577f6c9ba735ace6fbcd\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4ddac0afd529577f6c9ba735ace6fbcd\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8ad9ef56a1488a9ef6ccfc673d81be8d\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8ad9ef56a1488a9ef6ccfc673d81be8d\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\01f0d3f8ef6fc651e78b06c1cc420066\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\01f0d3f8ef6fc651e78b06c1cc420066\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\70234a11d02ba78ecbb6f5044d2e3371\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\70234a11d02ba78ecbb6f5044d2e3371\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\065b471a6b52e3b1167ce679d1c5bca7\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\065b471a6b52e3b1167ce679d1c5bca7\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8e9c29eb41f192bb72e1f9e04043c26d\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8e9c29eb41f192bb72e1f9e04043c26d\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7d337a82ff37871f2ba9ef2173272a82\jetified-relinker-1.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\7d337a82ff37871f2ba9ef2173272a82\jetified-relinker-1.4.0\AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dd5738402c4b9b14c15e2e16050f38a3\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dd5738402c4b9b14c15e2e16050f38a3\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d1fba26d1c40674a02d38a12e6d9b28e\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\d1fba26d1c40674a02d38a12e6d9b28e\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:7:5-9:41
+MERGED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android:flexbox:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\72ab26fef4818e4c5c21098590c82729\jetified-flexbox-1.0.0\AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\72ab26fef4818e4c5c21098590c82729\jetified-flexbox-1.0.0\AndroidManifest.xml:23:5-25:41
+INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Lewis\Desktop\Source Code\BudokaiApp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.realm:realm-android-library-object-server:10.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\828d6d50090e0af06532f186faa0f17b\jetified-realm-android-library-object-server-10.3.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.cometchat:pro-android-chat-sdk:3.0.5] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f82246be960d7aefd17ffe647576c239\jetified-pro-android-chat-sdk-3.0.5\AndroidManifest.xml:12:5-79
+MERGED from [com.cometchat:pro-android-chat-sdk:3.0.5] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\f82246be960d7aefd17ffe647576c239\jetified-pro-android-chat-sdk-3.0.5\AndroidManifest.xml:12:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:9:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [io.realm:realm-android-library-object-server:10.3.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\828d6d50090e0af06532f186faa0f17b\jetified-realm-android-library-object-server-10.3.1\AndroidManifest.xml:10:22-76
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dc13bc28c725dfa246329649a8599bb4\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dc13bc28c725dfa246329649a8599bb4\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dc13bc28c725dfa246329649a8599bb4\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dc13bc28c725dfa246329649a8599bb4\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dc13bc28c725dfa246329649a8599bb4\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\dc13bc28c725dfa246329649a8599bb4\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\9659706795ee603e8c0438d5f917dffd\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ebb3474a0498cc8f83712d23eb46b103\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ebb3474a0498cc8f83712d23eb46b103\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ebb3474a0498cc8f83712d23eb46b103\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\ebb3474a0498cc8f83712d23eb46b103\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fb949555869b477b9b8b275b9da10331\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fb949555869b477b9b8b275b9da10331\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fb949555869b477b9b8b275b9da10331\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\fb949555869b477b9b8b275b9da10331\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8342245b947ce453411d3d3b6a8bfb60\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8342245b947ce453411d3d3b6a8bfb60\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c6b9dc8253ef95338db82c580dcbde42\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\c6b9dc8253ef95338db82c580dcbde42\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\4c67f222db8864f3d0029d7828fcbdb1\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8342245b947ce453411d3d3b6a8bfb60\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8342245b947ce453411d3d3b6a8bfb60\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\8342245b947ce453411d3d3b6a8bfb60\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+activity#com.paypal.android.sdk.payments.PaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:13:9-84
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:13:19-81
+activity#com.paypal.android.sdk.payments.PaymentMethodActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:14:9-90
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:14:19-87
+activity#com.paypal.android.sdk.payments.PaymentConfirmActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:15:9-91
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:15:19-88
+activity#com.paypal.android.sdk.payments.LoginActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:16:9-82
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:16:19-79
+activity#com.paypal.android.sdk.payments.PayPalFuturePaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:17:9-96
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:17:19-93
+activity#com.paypal.android.sdk.payments.FuturePaymentConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:18:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:18:19-94
+activity#com.paypal.android.sdk.payments.FuturePaymentInfoActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:19:9-94
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:19:19-91
+activity#com.paypal.android.sdk.payments.PayPalProfileSharingActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:20:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:20:19-94
+activity#com.paypal.android.sdk.payments.ProfileSharingConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:21:9-98
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:21:19-95
+service#com.paypal.android.sdk.payments.PayPalService
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\0c675b437ed1d0ec88f093de8dd613c2\jetified-paypal-android-sdk-2.14.2\AndroidManifest.xml:24:13-73
+uses-permission#android.permission.CAMERA
+ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:11:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:12:22-63
+uses-feature#android.hardware.camera
+ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:15:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:18:9-57
+activity#io.card.payment.CardIOActivity
+ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:22:9-24:66
+	android:configChanges
+		ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:24:13-63
+	android:name
+		ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:23:13-58
+activity#io.card.payment.DataEntryActivity
+ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:25:9-70
+	android:name
+		ADDED from [io.card:android-sdk:5.3.4] C:\Program Files\Android\jdk\caches\transforms-2\files-2.1\257f9f17369c555263648bb6ee8a4290\jetified-android-sdk-5.3.4\AndroidManifest.xml:25:19-67

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mongodb.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="32" />
+    <!-- Added below for paypal to work -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <queries>
+
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+    </queries>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:name="com.mongodb.app.App"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.App" >
+        <activity
+            android:name="com.mongodb.app.FollowerActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!-- The API key for Google Maps-based APIs. -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="MAPS_API_KEY" />
+
+        <activity
+            android:name="com.mongodb.app.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.TournamentsInActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.MyRatingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.GroupListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.ChatRoom"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.RulesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.MapsMarkerActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.mongodb.app.RateOrganizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.CreateGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.TimerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.TournamentPageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.TournamentsOwnActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.ParticipantActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.ActiveUpcomingTournament"
+            android:exported="false" />
+        <activity
+            android:name="com.mongodb.app.BracketActivity"
+            android:exported="false"
+            android:parentActivityName="com.mongodb.app.HomeActivity" />
+        <activity
+            android:name="com.mongodb.app.PlayerActivity"
+            android:parentActivityName="com.mongodb.app.ProfileActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.afterNotification"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.MyGroupsActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.ReportActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.SearchTournamentActivity"
+            android:parentActivityName="com.mongodb.app.HomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.RegisterActivity"
+            android:parentActivityName="com.mongodb.app.LoginActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.CreateTournamentActivity"
+            android:parentActivityName="com.mongodb.app.HomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.HomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.games.GamesListActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.games.GameDetailActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.TournamentActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.TournamentDetailActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.ProfileActivity"
+            android:parentActivityName="com.mongodb.app.HomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.EditProfileActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.ChangePassActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.SettingsActivity"
+            android:parentActivityName="com.mongodb.app.HomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.QRCodeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.SuggestionPageActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.RankingActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.PaypalActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.activty.CheckoutActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.mongodb.app.NewProfile"
+            android:screenOrientation="nosensor" /> <!-- <activity -->
+        <!-- android:name=".LoginActivity" -->
+        <!-- android:screenOrientation="nosensor" /> -->
+        <activity
+            android:name="com.mongodb.app.LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" /> <!-- // google API implementation -->
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.mongodb.app.com.squareup.picasso"
+            android:exported="false" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.mongodb.app.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+    </application>
+
+</manifest>

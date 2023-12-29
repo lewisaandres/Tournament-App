@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fece2f"
+    android:orientation="horizontal"
+    android:layout_margin="1dp"
+    android:padding="8dp"
+    android:id="@+id/pressButton">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:padding="1dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/popup_menu"-->
+    <!--        android:layout_width="45dp"-->
+    <!--        android:layout_height="42dp"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:layout_marginRight="10dp"-->
+    <!--        android:src="@drawable/ic_arrow_right"-->
+    <!--        android:text="->"-->
+    <!--        android:textAppearance="?android:textAppearanceLarge"-->
+    <!--        android:textSize="24sp"-->
+    <!--        tools:ignore="RelativeOverlap,RtlSymmetry" />-->
+
+
+</RelativeLayout>
+

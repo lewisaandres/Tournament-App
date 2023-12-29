@@ -1,0 +1,192 @@
+com/mongodb/app/databinding/ActivityRatingBinding.java
+ com.mongodb.app.databinding.ActivityRatingBinding
+com/mongodb/app/databinding/TournamentDetailViewBinding.java
+ com.mongodb.app.databinding.TournamentDetailViewBinding
+com/mongodb/app/databinding/ActivityMapsBinding.java
+ com.mongodb.app.databinding.ActivityMapsBinding
+com/mongodb/app/databinding/FragmentBracketBinding.java
+ com.mongodb.app.databinding.FragmentBracketBinding
+io/realm/com_mongodb_app_GamesRealmProxy.java
+ io.realm.com_mongodb_app_GamesRealmProxy
+ io.realm.com_mongodb_app_GamesRealmProxy$ClassNameHelper
+ io.realm.com_mongodb_app_GamesRealmProxy$GamesColumnInfo
+com/mongodb/app/databinding/ActivityRankingBinding.java
+ com.mongodb.app.databinding.ActivityRankingBinding
+com/mongodb/app/databinding/FragmentProfileBinding.java
+ com.mongodb.app.databinding.FragmentProfileBinding
+com/mongodb/app/databinding/ActivityParticipantsBinding.java
+ com.mongodb.app.databinding.ActivityParticipantsBinding
+com/mongodb/app/databinding/ActivityBracketBinding.java
+ com.mongodb.app.databinding.ActivityBracketBinding
+com/mongodb/app/databinding/BuyWithGooglepayButtonBinding.java
+ com.mongodb.app.databinding.BuyWithGooglepayButtonBinding
+com/mongodb/app/databinding/ActivityFollowerBinding.java
+ com.mongodb.app.databinding.ActivityFollowerBinding
+com/mongodb/app/databinding/FragmentActiveTournamentsBinding.java
+ com.mongodb.app.databinding.FragmentActiveTournamentsBinding
+io/realm/DefaultRealmModuleMediator.java
+ io.realm.DefaultRealmModuleMediator
+com/mongodb/app/ChatConstants/ChatConstants.java
+ com.mongodb.app.ChatConstants.ChatConstants
+com/mongodb/app/databinding/ActivityGameBinding.java
+ com.mongodb.app.databinding.ActivityGameBinding
+com/mongodb/app/databinding/ActivityGroupListBinding.java
+ com.mongodb.app.databinding.ActivityGroupListBinding
+com/mongodb/app/databinding/ActivityCreateTournamentBinding.java
+ com.mongodb.app.databinding.ActivityCreateTournamentBinding
+com/mongodb/app/GroupListActivity.java
+ com.mongodb.app.GroupListActivity
+ com.mongodb.app.GroupListActivity$1
+com/mongodb/app/databinding/ActivityCheckoutPayBinding.java
+ com.mongodb.app.databinding.ActivityCheckoutPayBinding
+com/mongodb/app/databinding/ActivityTaskBinding.java
+ com.mongodb.app.databinding.ActivityTaskBinding
+com/mongodb/app/databinding/PlayerViewBinding.java
+ com.mongodb.app.databinding.PlayerViewBinding
+com/mongodb/app/databinding/TaskViewBinding.java
+ com.mongodb.app.databinding.TaskViewBinding
+com/mongodb/app/databinding/ActivityTimerBinding.java
+ com.mongodb.app.databinding.ActivityTimerBinding
+com/mongodb/app/databinding/ProfileViewBinding.java
+ com.mongodb.app.databinding.ProfileViewBinding
+com/mongodb/app/databinding/TournamentPageCardViewBinding.java
+ com.mongodb.app.databinding.TournamentPageCardViewBinding
+com/mongodb/app/databinding/LoginViewBinding.java
+ com.mongodb.app.databinding.LoginViewBinding
+com/mongodb/app/GroupsAdapter.java
+ com.mongodb.app.GroupsAdapter
+ com.mongodb.app.GroupsAdapter$GroupViewHolder
+com/mongodb/app/databinding/ChangePasswordViewBinding.java
+ com.mongodb.app.databinding.ChangePasswordViewBinding
+com/mongodb/app/databinding/FragmentSearchBinding.java
+ com.mongodb.app.databinding.FragmentSearchBinding
+com/mongodb/app/BuildConfig.java
+ com.mongodb.app.BuildConfig
+com/mongodb/app/databinding/GameDetailActivityBinding.java
+ com.mongodb.app.databinding.GameDetailActivityBinding
+io/realm/com_mongodb_app_TaskRealmProxyInterface.java
+ io.realm.com_mongodb_app_TaskRealmProxyInterface
+com/mongodb/app/databinding/ActivityActiveUpcomingTournamentBinding.java
+ com.mongodb.app.databinding.ActivityActiveUpcomingTournamentBinding
+com/mongodb/app/databinding/TournamentViewBinding.java
+ com.mongodb.app.databinding.TournamentViewBinding
+com/mongodb/app/databinding/RatingViewBinding.java
+ com.mongodb.app.databinding.RatingViewBinding
+com/mongodb/app/databinding/SuggestionPageBinding.java
+ com.mongodb.app.databinding.SuggestionPageBinding
+com/mongodb/app/databinding/ActivityChatBinding.java
+ com.mongodb.app.databinding.ActivityChatBinding
+io/realm/com_mongodb_app_TaskRealmProxy.java
+ io.realm.com_mongodb_app_TaskRealmProxy
+ io.realm.com_mongodb_app_TaskRealmProxy$ClassNameHelper
+ io.realm.com_mongodb_app_TaskRealmProxy$TaskColumnInfo
+com/mongodb/app/databinding/ActivityChatRoomBinding.java
+ com.mongodb.app.databinding.ActivityChatRoomBinding
+com/mongodb/app/databinding/AddGameLayoutBinding.java
+ com.mongodb.app.databinding.AddGameLayoutBinding
+com/mongodb/app/databinding/ReworkHomeViewBinding.java
+ com.mongodb.app.databinding.ReworkHomeViewBinding
+com/mongodb/app/UserWrapper.java
+ com.mongodb.app.UserWrapper
+com/mongodb/app/databinding/QrcodeViewBinding.java
+ com.mongodb.app.databinding.QrcodeViewBinding
+com/mongodb/app/databinding/ActivityNewProfileBinding.java
+ com.mongodb.app.databinding.ActivityNewProfileBinding
+io/realm/com_mongodb_app_TournamentRealmProxy.java
+ io.realm.com_mongodb_app_TournamentRealmProxy
+ io.realm.com_mongodb_app_TournamentRealmProxy$ClassNameHelper
+ io.realm.com_mongodb_app_TournamentRealmProxy$TournamentColumnInfo
+com/mongodb/app/PaypalActivity.java
+ com.mongodb.app.PaypalActivity
+ com.mongodb.app.PaypalActivity$1
+io/realm/com_mongodb_app_RatingRealmProxy.java
+ io.realm.com_mongodb_app_RatingRealmProxy
+ io.realm.com_mongodb_app_RatingRealmProxy$ClassNameHelper
+ io.realm.com_mongodb_app_RatingRealmProxy$RatingColumnInfo
+io/realm/com_mongodb_app_UserRealmProxyInterface.java
+ io.realm.com_mongodb_app_UserRealmProxyInterface
+com/mongodb/app/MessageWrapper.java
+ com.mongodb.app.MessageWrapper
+com/mongodb/app/databinding/FragmentCreateTourneyBinding.java
+ com.mongodb.app.databinding.FragmentCreateTourneyBinding
+io/realm/com_mongodb_app_RatingRealmProxyInterface.java
+ io.realm.com_mongodb_app_RatingRealmProxyInterface
+com/mongodb/app/databinding/ActivityAfterNotificationBinding.java
+ com.mongodb.app.databinding.ActivityAfterNotificationBinding
+com/mongodb/app/ChatConstants/CheckMessage.java
+ com.mongodb.app.ChatConstants.CheckMessage
+com/mongodb/app/databinding/ActivityRegisterBinding.java
+ com.mongodb.app.databinding.ActivityRegisterBinding
+com/mongodb/app/databinding/ActivityLoginBinding.java
+ com.mongodb.app.databinding.ActivityLoginBinding
+com/mongodb/app/databinding/SuggestionPageRowBinding.java
+ com.mongodb.app.databinding.SuggestionPageRowBinding
+com/mongodb/app/databinding/TestingBinding.java
+ com.mongodb.app.databinding.TestingBinding
+io/realm/com_mongodb_app_UserRealmProxy.java
+ io.realm.com_mongodb_app_UserRealmProxy
+ io.realm.com_mongodb_app_UserRealmProxy$ClassNameHelper
+ io.realm.com_mongodb_app_UserRealmProxy$UserColumnInfo
+com/mongodb/app/databinding/ActivityGroupBinding.java
+ com.mongodb.app.databinding.ActivityGroupBinding
+com/mongodb/app/databinding/ActivityRowRankingBinding.java
+ com.mongodb.app.databinding.ActivityRowRankingBinding
+com/mongodb/app/databinding/GroupLayoutBinding.java
+ com.mongodb.app.databinding.GroupLayoutBinding
+com/mongodb/app/ChatRoom.java
+ com.mongodb.app.ChatRoom
+ com.mongodb.app.ChatRoom$1
+ com.mongodb.app.ChatRoom$2
+com/mongodb/app/databinding/ActivityPaypalBinding.java
+ com.mongodb.app.databinding.ActivityPaypalBinding
+com/mongodb/app/databinding/GroupRowBinding.java
+ com.mongodb.app.databinding.GroupRowBinding
+com/mongodb/app/databinding/RatingItemBinding.java
+ com.mongodb.app.databinding.RatingItemBinding
+com/mongodb/app/databinding/GameHeaderBinding.java
+ com.mongodb.app.databinding.GameHeaderBinding
+com/mongodb/app/databinding/GroupPageBinding.java
+ com.mongodb.app.databinding.GroupPageBinding
+io/realm/com_mongodb_app_GamesRealmProxyInterface.java
+ io.realm.com_mongodb_app_GamesRealmProxyInterface
+io/realm/com_mongodb_app_GroupRealmProxyInterface.java
+ io.realm.com_mongodb_app_GroupRealmProxyInterface
+com/mongodb/app/databinding/ActivitySearchTournamentBinding.java
+ com.mongodb.app.databinding.ActivitySearchTournamentBinding
+com/mongodb/app/databinding/ActivityTournamentBinding.java
+ com.mongodb.app.databinding.ActivityTournamentBinding
+io/realm/DefaultRealmModule.java
+ io.realm.DefaultRealmModule
+com/mongodb/app/databinding/EditProfileViewBinding.java
+ com.mongodb.app.databinding.EditProfileViewBinding
+com/mongodb/app/databinding/CardViewBinding.java
+ com.mongodb.app.databinding.CardViewBinding
+io/realm/com_mongodb_app_GroupRealmProxy.java
+ io.realm.com_mongodb_app_GroupRealmProxy
+ io.realm.com_mongodb_app_GroupRealmProxy$ClassNameHelper
+ io.realm.com_mongodb_app_GroupRealmProxy$GroupColumnInfo
+com/mongodb/app/databinding/SettingsBinding.java
+ com.mongodb.app.databinding.SettingsBinding
+com/mongodb/app/databinding/ActivityPlayerBinding.java
+ com.mongodb.app.databinding.ActivityPlayerBinding
+io/realm/com_mongodb_app_TournamentRealmProxyInterface.java
+ io.realm.com_mongodb_app_TournamentRealmProxyInterface
+com/mongodb/app/databinding/HomeViewBinding.java
+ com.mongodb.app.databinding.HomeViewBinding
+com/mongodb/app/ChatActivity.java
+ com.mongodb.app.ChatActivity
+ com.mongodb.app.ChatActivity$1
+ com.mongodb.app.ChatActivity$2
+ com.mongodb.app.ChatActivity$3
+com/mongodb/app/databinding/ActivityReportBinding.java
+ com.mongodb.app.databinding.ActivityReportBinding
+com/mongodb/app/databinding/ActivityRulesBinding.java
+ com.mongodb.app.databinding.ActivityRulesBinding
+com/mongodb/app/databinding/ParticipantViewBinding.java
+ com.mongodb.app.databinding.ParticipantViewBinding
+com/mongodb/app/databinding/ActivityTournamentPageBinding.java
+ com.mongodb.app.databinding.ActivityTournamentPageBinding
+com/mongodb/app/databinding/FragmentSettingsBinding.java
+ com.mongodb.app.databinding.FragmentSettingsBinding
+com/mongodb/app/databinding/GameItemBinding.java
+ com.mongodb.app.databinding.GameItemBinding
