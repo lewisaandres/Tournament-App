@@ -3,11 +3,6 @@ package com.mongodb.app.ChatConstants;
 import java.util.Locale;
 
 public class CheckMessage {
-    private String badWords[] = {"fuck", "bitch", "asshole", "cunt",
-                                "shit", "piss", "dick", "bastard", "cock",
-                                "slut", "whore", "nigga", "nigger", "cracker", "wetback",
-                                "chink"};
-    private String replaceWord = "****";
 
     public CheckMessage() {
     }
